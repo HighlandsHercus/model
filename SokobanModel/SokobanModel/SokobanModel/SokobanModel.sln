@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SokobanModel", "SokobanModel\SokobanModel.csproj", "{E416C3F5-73C9-42FC-8548-19331740D9AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SokobanModelTests", "SokobanModelTests\SokobanModelTests.csproj", "{257F48D3-64F9-4FEE-9216-77772A23B8EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E416C3F5-73C9-42FC-8548-19331740D9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E416C3F5-73C9-42FC-8548-19331740D9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E416C3F5-73C9-42FC-8548-19331740D9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E416C3F5-73C9-42FC-8548-19331740D9AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257F48D3-64F9-4FEE-9216-77772A23B8EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257F48D3-64F9-4FEE-9216-77772A23B8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257F48D3-64F9-4FEE-9216-77772A23B8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257F48D3-64F9-4FEE-9216-77772A23B8EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6276774B-1C90-4C45-8C4D-B76039948BA2}
+	EndGlobalSection
+EndGlobal
