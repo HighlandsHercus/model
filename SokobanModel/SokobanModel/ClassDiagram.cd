@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="SokobanModel.Game">
+    <Position X="0.5" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAoAAAQMAABDAAAAAAAAACAAIEAAAABCCAAAhAAAg=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_currentLevel" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_levelList" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.524" />
+  </Class>
+  <Class Name="SokobanModel.Level">
+    <Position X="4.75" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AUggAAgIAAEAAAFACAAAKAICAQABAQAAAEgAAQAAQAA=</HashCode>
+      <FileName>Level.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_player" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.429" />
+  </Class>
+  <Class Name="SokobanModel.Player">
+    <Position X="7.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAIAAQAAAAAAAAAAAAAAAAAAQAAAAAAAAAAYAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_moveList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SokobanModel.MoveRecord">
+    <Position X="12.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAEIAAAAAABAAAAAAAEICAIAAAwCAAAAAAAAAEAA=</HashCode>
+      <FileName>MoveRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SokobanModel.IGame" Collapsed="true">
+    <Position X="14.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAgAAAAIAABCAAAAAAAAACAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>IGame.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SokobanModel.ILevel" Collapsed="true">
+    <Position X="16.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUggAAgIAAEAAAFAAAAAAAIAAAABAAAAAAgAAAAAQAA=</HashCode>
+      <FileName>ILevel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SokobanModel.IMoving" Collapsed="true">
+    <Position X="14.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAQEAAABAAAAAAAAAAAAIAAAAAAACAAABAAAg=</HashCode>
+      <FileName>IMoving.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="SokobanModel.Part" Collapsed="true">
+    <Position X="16.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEAAAAAAAAAQAAAAIAAAAAAAAAAAQAAAAACQAAAAA=</HashCode>
+      <FileName>Part.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SokobanModel.Direction" Collapsed="true">
+    <Position X="14.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
